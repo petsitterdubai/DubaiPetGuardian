@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Dubai Pet Guardian - Trusted Pet Care UAE</title>
+    <meta name="description" content="Learn about Dubai Pet Guardian, your trusted, insured, and 24/7 pet care experts serving all of Dubai and the United Arab Emirates.">
+    <!-- Include the exact same <style> block from index.html here -->
+    <style>
+        :root { --primary: #0f4c81; --secondary: #f59e0b; --dark: #1f2937; --light: #f3f4f6; --white: #ffffff; --text: #374151; }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { color: var(--text); line-height: 1.6; }
+        a { text-decoration: none; color: inherit; transition: 0.3s; }
+        .top-bar { background: var(--dark); color: var(--white); padding: 10px 5%; display: flex; justify-content: space-between; font-size: 0.9rem; flex-wrap: wrap; gap: 10px; }
+        header { background: var(--white); box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 15px 5%; }
+        .logo { font-size: 1.6rem; font-weight: 800; color: var(--primary); }
+        .nav-links { display: flex; list-style: none; gap: 25px; align-items: center; }
+        .nav-links a { color: var(--dark); font-weight: 600; }
+        .nav-links a:hover { color: var(--secondary); }
+        .dropdown { position: relative; }
+        .dropdown-content { display: none; position: absolute; background: var(--white); min-width: 220px; box-shadow: 0 8px 16px rgba(0,0,0,0.1); z-index: 1; border-radius: 6px; top: 100%; }
+        .dropdown-content a { color: var(--text); padding: 12px 16px; display: block; font-weight: 500; }
+        .dropdown-content a:hover { background: var(--light); color: var(--primary); }
+        .dropdown:hover .dropdown-content { display: block; }
+        section { padding: 80px 5%; }
+        .section-title { text-align: center; margin-bottom: 50px; color: var(--primary); font-size: 2.4rem; }
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
+        .about-grid img { width: 100%; border-radius: 10px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px; }
+        .value-card { background: var(--light); padding: 30px; border-radius: 10px; text-align: center; }
+        .value-card h3 { color: var(--primary); margin-bottom: 15px; }
+        footer { background: var(--dark); color: var(--white); padding: 70px 5% 25px; }
+        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-bottom: 50px; }
+        .footer-col h4 { color: var(--secondary); margin-bottom: 25px; }
+        .footer-col ul { list-style: none; }
+        .footer-col ul li { margin-bottom: 12px; }
+        .footer-col a:hover { color: var(--secondary); }
+        .copyright { text-align: center; padding-top: 25px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.9rem; opacity: 0.8; }
+        .page-hero { background: var(--primary); color: var(--white); text-align: center; padding: 80px 5%; }
+        @media (max-width: 768px) { .nav-links { display: none; } .about-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="top-bar"><span>📞 +971 50 903 8225</span><span>✉️ tomdaloand@gmail.com</span><span>🕒 Mon - Sun: Open 24 Hours</span></div>
+    <header>
+        <nav>
+            <div class="logo">🐾 Dubai Pet Guardian</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="dropdown"><a href="#">Services ▾</a>
+                    <div class="dropdown-content">
+                        <a href="pet-sitter-dubai.html">Pet Sitter Dubai</a><a href="pet-sitting-dubai.html">Pet Sitting Dubai</a>
+                        <a href="cat-sitting-dubai.html">Cat Sitting Dubai</a><a href="cat-boarding-dubai.html">Cat Boarding Dubai</a>
+                        <a href="dog-sitting-dubai.html">Dog Sitting Dubai</a><a href="dog-sitter-dubai.html">Dog Sitter Dubai</a>
+                        <a href="dog-boarding-dubai.html">Dog Boarding Dubai</a><a href="dog-walking-dubai.html">Dog Walking Dubai</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-hero">
+        <h1>About Dubai Pet Guardian</h1>
+        <p>Dedicated to the health, happiness, and safety of your beloved pets across the UAE.</p>
+    </div>
+
+    <section>
+        <div class="about-grid">
+            <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=800&q=80" alt="Professional pet guardian with dog in Dubai">
+            <div>
+                <h2 style="color: var(--primary); margin-bottom: 20px;">Our Story</h2>
+                <p>Founded in the heart of Dubai, <strong>Dubai Pet Guardian</strong> was born from a simple belief: pets are family, and they deserve the highest standard of care when their owners are away. </p>
+                <br>
+                <p>What started as a small, passionate team of animal lovers has grown into the UAE's most trusted network of professional pet sitters, dog walkers, and boarding specialists. We understand the unique needs of pets in the region, from navigating the summer heat during walks to providing serene, stress-free environments for anxious cats.</p>
+                <br>
+                <a href="contact.html" class="btn btn-primary" style="background: var(--primary); color: white;">Meet Our Team</a>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: var(--light);">
+        <h2 class="section-title">Our Core Values</h2>
+        <div class="values-grid">
+            <div class="value-card">
+                <h3>🛡️ Safety First</h3>
+                <p>Every guardian is rigorously background-checked, trained in pet first aid, and fully insured for your absolute peace of mind.</p>
+            </div>
+            <div class="value-card">
+                <h3>❤️ Compassionate Care</h3>
+                <p>We don't just feed and walk; we provide genuine affection, playtime, and emotional support tailored to your pet's personality.</p>
+            </div>
+            <div class="value-card">
+                <h3>🔄 24/7 Reliability</h3>
+                <p>Pets don't keep office hours, and neither do we. Our services are available 24 hours a day, 7 days a week, across the entire UAE.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer same as index.html -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col"><h4>Dubai Pet Guardian 🐾</h4><p>Trusted, 24/7 pet care services across Dubai and the UAE.</p></div>
+            <div class="footer-col"><h4>Contact Info</h4><ul><li>📍 Based in Dubai, Serving all UAE</li><li>📞 +971 50 903 8225</li><li>✉️ tomdaloand@gmail.com</li><li>🕒 Mon - Sun: Open 24 Hours</li></ul></div>
+        </div>
+        <div class="copyright">&copy; 2026 Dubai Pet Guardian. All Rights Reserved.</div>
+    </footer>
+</body>
+</html>
